@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.santillanj.memegenerator.memegenerator.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meme Generator"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:forceHasOverlappingRendering="true"
+        android:focusableInTouchMode="false"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mtxtfldTop"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="I am" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Top Text"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:forceHasOverlappingRendering="true"
+        android:focusableInTouchMode="false"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/mtxtfldTop"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mtxtfldbottom"
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:text="a delicate flower" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bottom Text"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:forceHasOverlappingRendering="true"
+        android:focusableInTouchMode="false"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/mtxtfldbottom"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:id="@+id/mbtnEnter"
+        android:layout_marginTop="82dp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
